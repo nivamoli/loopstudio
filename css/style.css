@@ -38,6 +38,13 @@ header.header {
 }
 
 /* ----**** Section *****---- */
+section.main-info {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  width: 100vw;
+  padding: 0 30px;
+}
+
 /* ----**** Div *****---- */
 div.header__navigation {
   display: -webkit-box;
@@ -70,6 +77,15 @@ h1.main__title {
   padding: 30px;
 }
 
+h2.main-info__info-container--title {
+  margin-top: 45px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 30px;
+  text-align: center;
+  opacity: 0.7;
+}
+
 /* ----**** Nav *****---- */
 details.header__details {
   position: absolute;
@@ -83,7 +99,18 @@ a.nav-list__link {
 }
 
 /* ----**** Pgraphs *****---- */
+p.main-info__info-container--pgraph {
+  padding: 0 30px;
+  text-align: center;
+  color: #696969;
+  line-height: 25px;
+}
+
 /* ----**** Button *****---- */
 /* ----**** Form *****---- */
 /* ----**** Image *****---- */
+img.main-info__image-container--image {
+  width: 100%;
+}
+
 /* ----**** media queries  *****---- */
