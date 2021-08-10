@@ -63,6 +63,79 @@ div.header__container--logo {
   left: 25px;
 }
 
+div.our-creations-container-cards {
+  margin: 0 30px;
+  margin-bottom: 30px;
+}
+
+div.cards {
+  min-height: 117px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+}
+
+div.our-creations-container-cards__card1 {
+  background: url(/images/mobile/image-deep-earth.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.our-creations-container-cards__card2 {
+  background: url(/images/mobile/image-night-arcade.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.our-creations-container-cards__card3 {
+  background: url(/images/mobile/image-soccer-team.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.our-creations-container-cards__card4 {
+  background: url(/images/mobile/image-grid.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.our-creations-container-cards__card5 {
+  background: url(/images/mobile/image-from-above.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.our-creations-container-cards__card6 {
+  background: url(/images/mobile/image-pocket-borealis.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.our-creations-container-cards__card7 {
+  background: url(/images/mobile/image-curiosity.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.our-creations-container-cards__card8 {
+  background: url(/images/mobile/image-fisheye.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div.our-creations__btn {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
 /* ----**** Footer *****---- */
 /* ----**** Components *****---- */
 /* ----**** Title *****---- */
@@ -86,6 +159,25 @@ h2.main-info__info-container--title {
   opacity: 0.7;
 }
 
+h2.our-creations-container-cta__title {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #696969;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h3.our-creations-container-cards__card1--title {
+  font-size: 22px;
+  color: #FFF;
+  text-transform: uppercase;
+  width: 40%;
+}
+
+h3.card-title-4 {
+  width: 30%;
+}
+
 /* ----**** Nav *****---- */
 details.header__details {
   position: absolute;
@@ -107,6 +199,15 @@ p.main-info__info-container--pgraph {
 }
 
 /* ----**** Button *****---- */
+button.our-creations__btn--button {
+  padding: 10px 40px;
+  background: transparent;
+  border: 2px solid #8c8c8c;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  cursor: pointer;
+}
+
 /* ----**** Form *****---- */
 /* ----**** Image *****---- */
 img.main-info__image-container--image {
